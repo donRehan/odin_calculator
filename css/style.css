@@ -1,0 +1,19 @@
+/* Copyright (C) 2024 Alhussien Ahmed */
+* {
+	padding: 8px;
+	margin: 8px;
+}
+
+body {
+	background: #ffc600;
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+}
+
+#calculator-body {
+	width: 300px;
+	height: 100%;
+	background-color: grey;
+	align-self: center;
+}
