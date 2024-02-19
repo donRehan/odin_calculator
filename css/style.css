@@ -17,3 +17,24 @@ body {
 	background-color: grey;
 	align-self: center;
 }
+
+#Buttons-div {
+	display: flex;
+	flex-direction: row;
+}
+
+#screen-div {
+	width : 268px;
+	height: 50px;
+	background-color: #3B3B3B;
+	align-items: center;
+	justify-items: center;
+	box-shadow: rgba(0,0,0,0.6);
+}
+
+#clear {
+	background-color: #FFAAAA;
+}
+#delete {
+	background-color: #AAAAFF;
+}
