@@ -26,27 +26,27 @@ function getNumberPressed(buttonId) {
 	//Based on the button id return a number 
 	switch(buttonId) {
 		case 'one':
-			return 1;
+		return 1;
 		case 'two':
-			return 2;
+		return 2;
 		case 'three':
-			return 3;
+		return 3;
 		case 'four':
-			return 4;
+		return 4;
 		case 'five':
-			return 5;
+		return 5;
 		case 'six':
-			return 6;
+		return 6;
 		case 'seven':
-			return 7;
+		return 7;
 		case 'eight':
-			return 8;
+		return 8;
 		case 'nine':
-			return 9;
+		return 9;
 		case 'zero':
-			return 0;
+		return 0;
 		default:
-			return 0;
+		return 0;
 	}
 }
 
@@ -64,7 +64,55 @@ let get_number = async () => {
 	return output;
 }
 
-//// Method to get the id of the button pressed
+let get_numberNova = async () => 
+{
+	return new Promise((resolve) => {
+		let zero = document.getElementById('zero');
+		let one = document.getElementById('one');
+		let two = document.getElementById('two');
+		let three = document.getElementById('three');
+		let four = document.getElementById('four');
+		let five = document.getElementById('five');
+		let six = document.getElementById('six');
+		let seven = document.getElementById('seven');
+		let eight = document.getElementById('eight');
+		let nine = document.getElementById('nine');
+
+		zero.onclick = () => {
+			resolve('zero');
+		};
+		one.onclick = () => {
+			resolve('one');
+		};
+		two.onclick = () => {
+			resolve('two');
+		};
+		three.onclick = () => {
+			resolve('three');
+		};
+		four.onclick = () => {
+			resolve('four');
+		};
+		five.onclick = () => {
+			resolve('five');
+		};
+		six.onclick = () => {
+			resolve('six');
+		};
+		seven.onclick = () => {
+			resolve('seven');
+		};
+		eight.onclick = () => {
+			resolve('eight');
+		};
+		nine.onclick = () => {
+			resolve('nine');
+		};
+	});
+}
+
+// PLEASE DELETE !!
+// Method to get the id of the button pressed
 //let screen_text = document.createElement('p');
 //let buttons = document.querySelectorAll('button');
 //// Attach a single event listener to all buttons
@@ -85,6 +133,7 @@ let get_number = async () => {
 //	return buttonId;
 //  });
 //});
+// PLEASE DELETE !!
 
 let main = async ()  =>
 {
@@ -95,7 +144,9 @@ let main = async ()  =>
 	//Get the first number || get the operand (later)
 	//Get the input from the user and then output it to the console !
 	//Call function to take the first number and set it to 0 if not a number is provided
-	first_number = await get_number();
+	//first_number = await get_number(); OLD
+	first_number = await get_numberNova();
+	first_number = getNumberPressed(first_number);
 	console.log("First number: ", first_number);
 	//Get the operand 
 	let operand = prompt("Enter an operand: ");
@@ -111,7 +162,7 @@ let main = async ()  =>
 	//Get the result || Append to the output (later)
 	let result = operate(first_number, second_number, operand);
 	console.log("Result: ", result);
-	
+
 }
 
 main();

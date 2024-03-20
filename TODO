@@ -1,20 +1,8 @@
-## Functionality
-[x] Make each button set the screen to its value
-	[x] Press button , get its id. Console log that
-	[x] Press button , get its id. Print that to screen
-	[x] Print the number being pressed rather than its id
-	[x] remove console.log && make variable name more natural
-	[x] Store the display value => (numberPressed)
-
-
-"Make the calculator work! 
-You’ll need to store the first number and 
-second number that are input into the calculator,
-utilize the operator that the user selects, and then operate()
-on the two numbers when the user presses the “=” key."
-[_] store the second value and print it to the console.
-	first capture the second key pressed by the user !
-	even if simple mechanisim at first
+[_] Make number one taken from button input instead of prompt
+	[x] Create a basic method that will do just that
+	[_] When an operand is pressed before number1 handle that case 
+		return 0 as number 1
+[_] Change variable names and method names
 
 ## Style
 [_] Remove button borders
