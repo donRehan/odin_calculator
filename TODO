@@ -1,19 +1,7 @@
---  Changed approach to problem 
-	Now goal is to add input from user into a variable
-	that stores something like 1x2 much like a real calculator
-	once equals is pressed it divides string into first second and operand
-	then returns output or when a second number is already provided
-	then it does the same thing with equals being pressed 
-	this way its much simpler and allows for greater flexability
-
-[_] Make delete work && Clear
-	this can be done simply by checking for delete button after every 
-	button pressed in the calculator
-[_] Take second number first
-[_] Handle case like 12 *- 8 Where the original operand has to be 
-	removed
-[_] Fix numbers out of bound when numbers are more than 11 digits
-	by adding a new line or something 
+[x] Add backspace button to remove written numbers by mistake
+[_] Style the application
+[_] Add keyboard support
+[_] Handling the floating points issue proposed by the TOP
 
 ## Style
 [_] Remove button borders

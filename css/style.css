@@ -38,3 +38,7 @@ body {
 #delete {
 	background-color: #AAAAFF;
 }
+
+.calculator__display {
+	background-color: #3B3B3B;
+}
