@@ -1,0 +1,13 @@
+Current style of solving the issue ?!
+
+======================================
+Store from the user the first number 
+operand ends the first number
+then equal sign ends the second number
+======================================
+
+
+
+we then have the following 
+calulate_from_string => from there we take the firstnum , operand and s
+econd number !

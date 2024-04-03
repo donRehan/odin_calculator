@@ -213,6 +213,7 @@ let main = async ()  =>
 	screen_text.align = 'center';
 	screen_text.style = 'font-size: 20px;margin-right: 0px;margin-top: 0px;margin-left: 0px;margin-bottom: 0px;padding-right: 0px;padding-bottom: 0px;padding-top: 30px;padding-left: 140px;';
 	div.appendChild(screen_text);
+	//Check here if a button is pressed !
 	first_number = await get_numberNova();
 	first_number = getNumberPressed(first_number);
 	screen = screen + first_number;
@@ -220,12 +221,14 @@ let main = async ()  =>
 	screen_text.textContent = `${screen}`;
 	while(!operations.includes(first_number))
 	{
+		//Check here if a button is pressed !
 		first_number = await get_numberNova();
 		first_number = getNumberPressed(first_number);
 		screen = screen + first_number;
 		console.log(screen);
 		screen_text.textContent = `${screen}`;
 	}
+	//Check here if a button is pressed !
 	second_number = await get_numberNova();
 	second_number = getNumberPressed(second_number);
 	screen = screen + second_number;
@@ -235,6 +238,7 @@ let main = async ()  =>
 	while(second_number !== '=')
 	//while(!operations.includes(second_number))
 	{
+		//Check here if a button is pressed !
 		second_number = await get_numberNova();
 		second_number = getNumberPressed(second_number);
 		screen = screen + second_number;
