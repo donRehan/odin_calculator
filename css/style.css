@@ -11,16 +11,22 @@ body {
 	flex-direction: column;
 }
 
-#calculator-body {
+.calculator {
 	width: 300px;
 	height: 100%;
 	background-color: grey;
 	align-self: center;
+	display: flex;
+	flex-direction: column;
 }
 
-#Buttons-div {
-	display: flex;
-	flex-direction: row;
+.calculator__keys {
+	display: grid;
+	grid-template-columns: 75px 75px 75px;
+	grid-template-rows: 75px 75px 75px; 
+	column-gap: 0px;
+	row-gap: 0px;
+	align-self: center;
 }
 
 #screen-div {
@@ -41,4 +47,11 @@ body {
 
 .calculator__display {
 	background-color: #3B3B3B;
+}
+
+button {
+	padding: 0px;
+	margin: 0px;
+	width: 75px;
+	height: 75px;
 }
