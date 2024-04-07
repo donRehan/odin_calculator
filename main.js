@@ -118,7 +118,14 @@ keys.addEventListener("click", e => {
 		}
 		if (action === 'backspace'){
 			let str = display.textContent
-			display.textContent = str.substring(0, str.length - 1)
+			// Only if the current textContent only one character
+			if(str.length === 1)
+			{
+				display.textContent = '0'
+			}
+			else {
+				display.textContent = str.substring(0, str.length - 1)
+			}
 		}
 		// Not sure yet about this part
 		// Remove .is-depressed class from all keys

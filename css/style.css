@@ -47,6 +47,7 @@ body {
 
 .calculator__display {
 	background-color: #3B3B3B;
+	word-break: break-all;
 }
 
 button {

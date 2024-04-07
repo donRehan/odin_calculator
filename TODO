@@ -2,14 +2,15 @@ To get the previous style simply switch branches and copy content into
 another directory and then return to the current branch to continue 
 working 
 
-DELETE THIS 
-[_] Rexplain the javascript code part to prepare for making a tutorial
-[_] Add condition to prevent written numbers to go out of bounds of the 
-calculator screen !
 [_] Style the application
 [_] Add keyboard support
 [_] Handling the floating points issue proposed by the TOP
 [x] Add backspace button to remove written numbers by mistake
+[x] Add condition to prevent written numbers to go out of bounds of the 
+calculator screen !
+
+BUGS
+[x] When 0 is present and user presses delete the display shrinks
 
 ## Style
 [_] Remove button borders
