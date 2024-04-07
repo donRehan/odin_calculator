@@ -2,15 +2,18 @@ To get the previous style simply switch branches and copy content into
 another directory and then return to the current branch to continue 
 working 
 
-[_] Style the application
+FUTURE TODO
 [_] Add keyboard support
 [_] Handling the floating points issue proposed by the TOP
 [x] Add backspace button to remove written numbers by mistake
 [x] Add condition to prevent written numbers to go out of bounds of the 
 calculator screen !
+[_] Style the application (decided to move on since I was a month and 
+a half late in creating this application)
 
 BUGS
 [x] When 0 is present and user presses delete the display shrinks
+[_] AC would change to CE , Remove this unnecessary functionality
 
 ## Style
 [_] Remove button borders

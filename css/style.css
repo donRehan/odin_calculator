@@ -1,11 +1,17 @@
 /* Copyright (C) 2024 Alhussien Ahmed */
+
+@font-face {
+  font-family: "Pacific";
+  src: url("https://static1.squarespace.com/static/5f3c541ce91b77758af98b16/t/5f3c57898850042b62f2564c/1597790089588/Pacific.otf") format("opentype");
+}
+
 * {
 	padding: 8px;
 	margin: 8px;
 }
 
 body {
-	background: #ffc600;
+	background: #363636;
 	font-family: sans-serif;
 	display: flex;
 	flex-direction: column;
